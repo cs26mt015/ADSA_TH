@@ -1,12 +1,16 @@
-**Unit 1: Computational Problems and Complexity**
-1. Computational Problems
+# Advanced Data Structures and Algorithms
+
+## Unit 1: Computational Problems and Complexity
+
+### 1. Computational Problems
 - Decidable and undecidable problems
 - Decision problems
 - Optimization problems
 - Minimization and maximization problems
 - Polynomial-time algorithms
 - Exponential-time algorithms
-2. Complexity Classes
+
+### 2. Complexity Classes
 - Class P
 - Class NP
 - Deterministic and nondeterministic algorithms
@@ -16,17 +20,19 @@
 - NP-complete problems
 - NP-hard problems
 - Relationship between NP-hard and NP-complete
-3. Polynomial-Time Reductions
+
+### 3. Polynomial-Time Reductions
 - Definition of polynomial-time reduction
 - Reduction between decision problems
-- Yes-instance and No-instance preservation
+- Yes-instance and no-instance preservation
 - Reduction direction
 - Transitivity of reductions
 - Proving NP-hardness using reductions
 - Proving NP-completeness
 
-**Unit 2: NP-Completeness and Reductions**
-4. Boolean Satisfiability Problems
+## Unit 2: NP-Completeness and Reductions
+
+### 4. Boolean Satisfiability Problems
 - Boolean variables and literals
 - Boolean formulas
 - Satisfiability
@@ -35,7 +41,8 @@
 - Conjunctive Normal Form (CNF)
 - 3-CNF-SAT
 - Reduction from SAT to 3-CNF-SAT
-5. Hamiltonian Cycle
+
+### 5. Hamiltonian Cycle
 - Definition of Hamiltonian path
 - Definition of Hamiltonian cycle
 - Difference between Hamiltonian and Eulerian paths
@@ -43,48 +50,55 @@
 - Adjacency matrix representation
 - Backtracking approach
 - NP-completeness proof
-6. Clique Problem
+
+### 6. Clique Problem
 - Complete graph
 - Clique and clique size
 - Clique decision problem
 - Maximum Clique optimization problem
 - Reduction from 3-SAT to Clique
 - NP-completeness proof
-7. Independent Set
+
+### 7. Independent Set
 - Definition of independent set
 - Independent Set decision problem
 - Maximum Independent Set
 - Reduction from Clique to Independent Set
 - Complement graph
 - Relationship between Clique and Independent Set
-8. Vertex Cover
+
+### 8. Vertex Cover
 - Definition of vertex cover
 - Vertex Cover decision problem
 - Minimum Vertex Cover
 - Relationship between Independent Set and Vertex Cover
 - Reduction from Independent Set to Vertex Cover
 - Proof of the relationship
-9. Dominating Independent Set
+
+### 9. Dominating Independent Set
 - Independent set
 - Dominating set
 - Dominating Independent Set
 - Conditions for a dominating independent set
 - Decision problem
 - Relationship between independence and domination
-10. Balanced Biclique
+
+### 10. Balanced Biclique
 - Bipartite graphs
 - Complete bipartite graphs
 - Balanced biclique
 - Biclique decision problem
 - Verification of a biclique
 - NP-completeness proof
-11. Half Clique
+
+### 11. Half Clique
 - Clique
 - Half-clique definition
 - Decision problem
 - Relationship with ordinary Clique
 - Reduction-based proof
-12. Subset Sum
+
+### 12. Subset Sum
 - Problem definition
 - Decision version of Subset Sum
 - Dynamic programming approach
@@ -94,8 +108,9 @@
 - Complexity analysis
 - NP-completeness proof using 3-SAT reduction
 
-**Unit 3: Graph Algorithms**
-13. Hamiltonian Cycle Algorithm
+## Unit 3: Graph Algorithms
+
+### 13. Hamiltonian Cycle Algorithm
 - Adjacency matrix
 - Path construction
 - Candidate vertex selection
@@ -103,7 +118,8 @@
 - Backtracking
 - Termination condition
 - Time complexity
-14. Eulerian Path and Circuit
+
+### 14. Eulerian Path and Circuit
 - Eulerian path
 - Eulerian circuit
 - Difference between Hamiltonian and Eulerian problems
@@ -113,8 +129,9 @@
 - Bridge detection
 - Step-by-step construction
 
-**Unit 4: Dynamic Programming**
-15. Matrix Chain Multiplication
+## Unit 4: Dynamic Programming
+
+### 15. Matrix Chain Multiplication
 - Matrix dimensions
 - Matrix multiplication cost
 - Parenthesization
@@ -124,9 +141,10 @@
 - Optimal split position
 - Construction of optimal parenthesization
 - Time and space complexity
-16. Optimal Binary Search Tree
-- Successful search probabilities \(p_i\)
-- Unsuccessful search probabilities \(q_i\)
+
+### 16. Optimal Binary Search Tree
+- Successful search probabilities $p_i$
+- Unsuccessful search probabilities $q_i$
 - Expected search cost
 - Root selection
 - DP cost table
@@ -135,7 +153,8 @@
 - Recurrence relation
 - Construction of optimal BST
 - Worked examples
-17. Rod Cutting
+
+### 17. Rod Cutting
 - Rod length and price table
 - Maximum revenue
 - Recursive formulation
@@ -144,8 +163,9 @@
 - Reconstructing the optimal cuts
 - Time and space complexity
 
-**Unit 5: Tree Decomposition**
-18. Path Decomposition
+## Unit 5: Tree Decomposition
+
+### 18. Path Decomposition
 - Definition of a path decomposition
 - Bags and vertices
 - Vertex coverage condition
@@ -155,7 +175,8 @@
 - Pathwidth
 - Separation
 - Examples of valid and invalid decompositions
-19. Tree Decomposition
+
+### 19. Tree Decomposition
 - Definition of tree decomposition
 - Bags and tree structure
 - Vertex coverage
@@ -164,7 +185,8 @@
 - Width of a tree decomposition
 - Treewidth
 - Relationship between pathwidth and treewidth
-20. Nice Tree Decomposition
+
+### 20. Nice Tree Decomposition
 - Definition and purpose
 - Leaf node
 - Introduce node
@@ -174,8 +196,9 @@
 - Empty root and leaf conventions
 - Advantages for dynamic programming
 
-**Unit 6: Binary Search Trees**
-21. Binary Search Tree (BST)
+## Unit 6: Binary Search Trees
+
+### 21. Binary Search Tree (BST)
 - Definition and properties
 - BST ordering property
 - Tree structure and node representation
@@ -194,8 +217,9 @@
 - Best, average and worst-case complexity
 - Skewed BST
 
-**Unit 7: Red-Black Trees**
-22. Red-Black Tree Properties
+## Unit 7: Red-Black Trees
+
+### 22. Red-Black Tree Properties
 - Red and black nodes
 - Root property
 - NIL leaves
@@ -203,18 +227,21 @@
 - Equal black-height property
 - Black height
 - Longest and shortest paths
-23. Rotations
+
+### 23. Rotations
 - Left rotation
 - Right rotation
 - Rotation properties
 - Maintaining BST ordering after rotation
-24. Height Analysis
+
+### 24. Height Analysis
 - Internal nodes and subtree size
 - Black-height relationship
 - Proof of minimum subtree size
 - Proof that height is logarithmic
 - Bound on Red-Black Tree height
-25. Insertion
+
+### 25. Insertion
 - BST insertion
 - New node coloring
 - Violation of Red-Black properties
@@ -222,7 +249,8 @@
 - Left and right rotations
 - Insertion fix-up cases
 - Correctness of insertion
-26. Deletion
+
+### 26. Deletion
 - BST deletion
 - Replacement node
 - Successor-based deletion
@@ -231,10 +259,11 @@
 - Recoloring and rotations
 - Correctness of deletion
 
-**Unit 8: Order Statistics and Augmented Data Structures**
-27. Order Statistics
+## Unit 8: Order Statistics and Augmented Data Structures
+
+### 27. Order Statistics
 - Meaning of order statistics
-- \(i\)-th smallest element
+- $i$-th smallest element
 - Minimum and maximum
 - Median
 - Selection problem
@@ -244,7 +273,8 @@
 - Finding the median of medians
 - Partitioning
 - Worst-case linear-time selection
-28. Augmented Binary Search Trees
+
+### 28. Augmented Binary Search Trees
 - Meaning of data structure augmentation
 - Storing additional information in nodes
 - Subtree size
@@ -252,18 +282,20 @@
 - Augmented BST construction
 - Searching using augmented information
 - Complexity analysis
-29. Order-Statistic Trees
+
+### 29. Order-Statistic Trees
 - Subtree-size field
 - Maintaining subtree size during insertion
 - Maintaining subtree size during deletion
 - OS-Select
-- Finding the \(i\)-th smallest element
+- Finding the $i$-th smallest element
 - OS-Rank
 - Finding the rank of a given element
 - Complexity in balanced and unbalanced BSTs
 
-**Unit 9: B-Trees**
-30. B-Tree Properties
+## Unit 9: B-Trees
+
+### 30. B-Tree Properties
 - Definition of a B-Tree
 - Minimum degree
 - Maximum and minimum number of keys
@@ -272,7 +304,8 @@
 - Leaf properties
 - All leaves at the same depth
 - Height of a B-Tree
-31. B-Tree Operations
+
+### 31. B-Tree Operations
 - Searching
 - Insertion
 - Full-node detection
