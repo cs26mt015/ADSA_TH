@@ -1,4 +1,4 @@
-Unit 1: Computational Problems and Complexity
+**Unit 1: Computational Problems and Complexity**
 1. Computational Problems
 - Decidable and undecidable problems
 - Decision problems
@@ -24,7 +24,7 @@ Unit 1: Computational Problems and Complexity
 - Transitivity of reductions
 - Proving NP-hardness using reductions
 - Proving NP-completeness
-Unit 2: NP-Completeness and Reductions
+**Unit 2: NP-Completeness and Reductions**
 4. Boolean Satisfiability Problems
 - Boolean variables and literals
 - Boolean formulas
@@ -92,7 +92,7 @@ Unit 2: NP-Completeness and Reductions
 - Base cases
 - Complexity analysis
 - NP-completeness proof using 3-SAT reduction
-Unit 3: Graph Algorithms
+**Unit 3: Graph Algorithms**
 13. Hamiltonian Cycle Algorithm
 - Adjacency matrix
 - Path construction
@@ -110,7 +110,7 @@ Unit 3: Graph Algorithms
 - Fleury's algorithm
 - Bridge detection
 - Step-by-step construction
-Unit 4: Dynamic Programming
+**Unit 4: Dynamic Programming**
 15. Matrix Chain Multiplication
 - Matrix dimensions
 - Matrix multiplication cost
@@ -140,7 +140,7 @@ Unit 4: Dynamic Programming
 - Cutting decisions
 - Reconstructing the optimal cuts
 - Time and space complexity
-Unit 5: Tree Decomposition
+**Unit 5: Tree Decomposition**
 18. Path Decomposition
 - Definition of a path decomposition
 - Bags and vertices
@@ -169,7 +169,7 @@ Unit 5: Tree Decomposition
 - Conversion to nice tree decomposition
 - Empty root and leaf conventions
 - Advantages for dynamic programming
-Unit 6: Binary Search Trees
+**Unit 6: Binary Search Trees**
 21. Binary Search Tree (BST)
 - Definition and properties
 - BST ordering property
@@ -188,7 +188,7 @@ Unit 6: Binary Search Trees
 - Inorder traversal
 - Best, average and worst-case complexity
 - Skewed BST
-Unit 7: Red-Black Trees
+**Unit 7: Red-Black Trees**
 22. Red-Black Tree Properties
 - Red and black nodes
 - Root property
@@ -224,7 +224,7 @@ Unit 7: Red-Black Trees
 - Deletion fix-up cases
 - Recoloring and rotations
 - Correctness of deletion
-Unit 8: Order Statistics and Augmented Data Structures
+**Unit 8: Order Statistics and Augmented Data Structures**
 27. Order Statistics
 - Meaning of order statistics
 - \(i\)-th smallest element
@@ -254,7 +254,7 @@ Unit 8: Order Statistics and Augmented Data Structures
 - OS-Rank
 - Finding the rank of a given element
 - Complexity in balanced and unbalanced BSTs
-Unit 9: B-Trees
+**Unit 9: B-Trees**
 30. B-Tree Properties
 - Definition of a B-Tree
 - Minimum degree
